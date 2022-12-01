@@ -1,55 +1,61 @@
+
+h1{
+    text-align: center;
+}
 .box
 {
     text-align: center;
-    width: 250px;;
-    margin-left: 2rem;
-    background-color: rgb(255, 0, 0);
+    width: 250px;
+    
+    margin-left: 50rem;
+    background-color: rgb(247, 103, 204);
     border: 1px solid rgb(20, 18, 18);
     box-shadow: 3px 4px 6px rgb(35, 40, 28);
     padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 70%;
    
 }
 .box1
 {
     text-align: center;
-    width: fit-content;
-    margin-left: 2rem;
-    background-color: rgb(235, 0, 0);
+    width: 250px;
+    margin-left: 50rem;
+    background-color: rgb(6, 66, 77);
     color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(17, 16, 16);
     box-shadow: 3px 4px 6px rgb(35, 40, 28);
     padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 70%;
 }
 .box2
 {
     text-align: center;
-    width: fit-content;
-    margin-left: 2rem;
-    background-color: rgb(39, 52, 235);
+    width: 250px;
+    margin-left: 50rem;
+    background-color: rgb(238, 183, 4);
     color: white;
     border: 1px solid grey;
     box-shadow: 3px 4px 6px rgb(35, 40, 28);
+    margin-top: 2rem;
     padding: 4rem;
+    border-radius: 70%;
 }
 .box3
 {
     text-align: center;
-    width: fit-content;
-    margin-left: 2rem;
-    background-color: rgb(3, 133, 44);
+    width: 250px;
+    margin-left: 50rem;
+    background-color: rgb(61, 12, 12);
     color: white;
     border: 1px solid grey;
     box-shadow: 3px 4px 6px rgb(35, 40, 28);
     padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 70%;     
 }
-.contain
-{
-    text-align: center;
-    width: fit-content;
-    display: flex; 
-    background-color: blanchedalmond;
-    padding: 2rem;
-}
+
 *
 {
     margin: 0;
