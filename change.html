@@ -8,8 +8,10 @@
         <h1>DOM PARSER CONCEPTS</h1>
         <br/>
         <div class="box">
-            <h1>Edit Nodes </h1>
-            <p id="demo1"></p>
+            <h1>Edit Nodes</h1>
+            <span>Original Value : </span>
+            <span id="demo1"></span>
+            <br/>
             <span>Edited Value : </span>
             <span id="demo2"></span>
         </div>
@@ -27,9 +29,6 @@
             <p id="demo5"></p>
         </div>
     </div>
-    <footer style="text-align: center; padding : 1rem;">
-        <h5>&copy; Darpan Deb</h5>
-    </footer>
 
 
 
@@ -45,21 +44,21 @@ xhttp.onreadystatechange = function() {
 };
 xhttp.open("GET", "Demo.xml", true);
 xhttp.send();
-
+var root;
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     var x;
     x = xmlDoc.getElementsByTagName("name")[0].childNodes[0];
     document.getElementById("demo1").innerHTML = x.nodeValue;
-    x.nodeValue = "Agr";
+    x.nodeValue = "Agra";
     x = xmlDoc.getElementsByTagName("name")[0].childNodes[0];
     document.getElementById("demo2").innerHTML = x.nodeValue;
 }
 function myFunction1(xml) {
     var xmlDoc = xml.responseXML;
-    var root = xmlDoc.documentElement;
+    root = xmlDoc.documentElement;
     var currNode = root.childNodes[1];
-    removedNode = currNode.removeChild(currNode.childNodes[1]);
+    removedNode = currNode.removeChild(currNode.childNodes[0]);
     document.getElementById("demo3").innerHTML =
     "Removed node tag : < " + removedNode.nodeName + " > ";
 }

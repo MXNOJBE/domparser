@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course>
     <student>
-         <name>Kumar</name>
+         <name>Darpan</name>
          <reg>2247213</reg>
-         <email>Kumar.deb@gmail.com</email>
+         <email>Darpan.deb@gmail.com</email>
     </student>
     <student>
         <name>Rajarshi</name>
@@ -16,8 +16,8 @@
         <email>debanjan.bas@gmail.com</email>
     </student>
     <student>
-        <name>Nandini</name>
-        <reg>2457901</reg>
-        <email>nandini.chak@gmail.com</email>
+        <name>Manoj</name>
+        <reg>2247222</reg>
+        <email>manoj.be@gmail.com</email>
     </student>
 </course>

@@ -1,10 +1,10 @@
 .box
 {
     text-align: center;
-    width: fit-content;
+    width: 250px;;
     margin-left: 2rem;
-    background-color: rgb(232, 243, 17);
-    border: 1px solid grey;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(20, 18, 18);
     box-shadow: 3px 4px 6px rgb(35, 40, 28);
     padding: 4rem;
    
